@@ -9,6 +9,6 @@ import Foundation
 
 
 final class Model {
-    
+    let notifivationCenter = NotificationCenter.default
     
 }
