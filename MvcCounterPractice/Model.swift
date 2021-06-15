@@ -11,4 +11,10 @@ import Foundation
 final class Model {
     let notifivationCenter = NotificationCenter.default
     
+    private(set) var textCount = 0 {
+        didSet{
+            
+        }
+    }
+    
 }
