@@ -13,6 +13,9 @@ final class Model {
     
     private(set) var textCount = 0 {
         didSet{
+            notifivationCenter.post(name: .init("textCount"),
+                                    object: nil,
+                                    userInfo: ["textCount": textCount])
             
         }
     }
