@@ -20,4 +20,8 @@ final class Model {
         }
     }
     
+    func updateTextCount(text: String) {
+            textCount = text.count
+        }
+    
 }
